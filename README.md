@@ -10,9 +10,13 @@ proximity ranking.
 Run : 
 
 java Indexer \<dirPath\> \<indexPath\>
+
+
 java Searcher \<indexPath\> \<OP\> \<terms\>
 
 \<OP\> can be AND, OR.
 
 For example ;
+
+
 java Searcher INDEXPATH -or apple store iphone
